@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.game {
+  text-align: center;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.square {
+  width: 80px;
+  height: 80px;
+  font-size: 2rem;
+  cursor: pointer;
+  background: white;
+  border: 1px solid #333;
+}
+.status {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
